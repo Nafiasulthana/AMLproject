@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+env/
+backend/venv/
+
+# Python cache & compiled binaries
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

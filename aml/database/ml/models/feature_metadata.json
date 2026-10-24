@@ -1,0 +1,36 @@
+{
+  "feature_names": [
+    "amount",
+    "z_score_amount",
+    "degree_centrality",
+    "betweenness_centrality",
+    "money_retention_ratio",
+    "hop_count",
+    "structuring_flag",
+    "layering_flag",
+    "round_trip_flag",
+    "dormant_flag",
+    "smurfing_flag",
+    "high_risk_flag_count",
+    "risk_flag_any",
+    "z_score_retention_ratio",
+    "unretained_amount",
+    "graph_activity_score",
+    "velocity_pass_through"
+  ],
+  "optimal_threshold": 0.25,
+  "metrics": {
+    "accuracy": 0.7075,
+    "precision": 0.3117,
+    "recall": 0.8136,
+    "f1_score": 0.4507,
+    "roc_auc": 0.8414,
+    "pr_auc": 0.5044,
+    "brier_score": 0.1277,
+    "log_loss": 0.3905,
+    "tn": 235,
+    "fp": 106,
+    "fn": 11,
+    "tp": 48
+  }
+}
